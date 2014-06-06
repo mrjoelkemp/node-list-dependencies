@@ -20,5 +20,15 @@
   "dependencies": {
     "node-detective-amd": "^1.1.0",
     "node-dir": "^0.1.5"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrjoelkemp/node-list-dependencies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrjoelkemp/node-list-dependencies/issues"
+  },
+  "homepage": "https://github.com/mrjoelkemp/node-list-dependencies"
 }
