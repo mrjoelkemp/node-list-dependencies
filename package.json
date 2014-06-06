@@ -18,7 +18,7 @@
   "author": "Joel Kemp <joel@mrjoelkemp.com>",
   "license": "MIT",
   "dependencies": {
-    "node-detective-amd": "^1.1.0",
+    "detective-amd": "^2.0.3",
     "node-dir": "^0.1.5"
   },
   "main": "index.js",
