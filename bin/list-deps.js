@@ -2,7 +2,7 @@
 
 'use strict';
 
-var detective = require('node-detective-amd'),
+var detective = require('detective-amd'),
     filename = process.argv[2],
     dir = require('node-dir'),
     fs = require('fs');
