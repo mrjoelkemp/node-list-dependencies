@@ -1,0 +1,24 @@
+{
+  "name": "list-dependencies",
+  "version": "0.0.0",
+  "description": "Lists all module dependencies for a JS file or JS files within a directory",
+  "bin": {
+    "list-deps": "list-deps.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "list",
+    "dependencies",
+    "amd",
+    "commonjs",
+    "shell"
+  ],
+  "author": "Joel Kemp <joel@mrjoelkemp.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-detective-amd": "^1.1.0",
+    "node-dir": "^0.1.5"
+  }
+}
