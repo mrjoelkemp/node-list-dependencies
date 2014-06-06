@@ -1,5 +1,7 @@
 Lists all module dependencies for a JS file or JS files within a directory
 
+`npm install -g list-dependencies`
+
 Not meant to be a required module. Really just a shell wrapper around [detective-amd](https://github.com/mrjoelkemp/node-detective-amd).
 
 *CommonJS support soon for node-detective.*
