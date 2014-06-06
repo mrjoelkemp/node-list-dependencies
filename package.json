@@ -21,6 +21,7 @@
     "detective-amd": "^2.0.3",
     "node-dir": "^0.1.5"
   },
+  "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
