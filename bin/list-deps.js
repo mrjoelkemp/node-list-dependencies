@@ -24,11 +24,15 @@ function forAllJSFiles(directory, cb) {
   function (err, content, filename, next) {
     if (err) throw err;
 
-    console.log('\n---\n', filename, '\n---');
+    printFilename(filename);
 
     cb(content);
     next();
   });
+}
+
+function printFilename(filename) {
+  console.log('\n---\n', filename, '\n---');
 }
 
 function printDependencies(fileSrc) {
@@ -43,8 +47,8 @@ if (isDirectory(filename)) {
   forAllJSFiles(filename, printDependencies);
 
 } else {
-  // Print the file and its dependency list
   var fileContents = fs.readFileSync(filename).toString();
 
+  printFilename(filename);
   printDependencies(fileContents);
 }
