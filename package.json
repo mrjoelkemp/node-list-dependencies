@@ -1,6 +1,6 @@
 {
   "name": "list-dependencies",
-  "version": "0.0.0",
+  "version": "0.1.7",
   "description": "Lists all module dependencies for a JS file or JS files within a directory",
   "bin": {
     "list-deps": "list-deps.js"
