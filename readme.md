@@ -1,10 +1,12 @@
-Lists all module dependencies for a JS file or JS files within a directory
+#### list-dependencies [![npm](http://img.shields.io/npm/v/list-dependencies.svg)](https://npmjs.org/package/list-dependencies) [![npm](http://img.shields.io/npm/dm/list-dependencies.svg)](https://npmjs.org/package/list-dependencies)
+
+> Lists all module dependencies for a JS file or JS files within a directory
 
 `npm install -g list-dependencies`
 
-Not meant to be a required module. Really just a shell wrapper around [detective-amd](https://github.com/mrjoelkemp/node-detective-amd).
+Not meant to be a required module. Really just a shell wrapper around [precinct](https://github.com/mrjoelkemp/node-precinct).
 
-*CommonJS support soon for node-detective.*
+* Works for AMD, CommonJS, and ES6 modules.
 
 ### Usage
 

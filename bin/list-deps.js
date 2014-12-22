@@ -2,7 +2,7 @@
 
 'use strict';
 
-var detective = require('detective-amd'),
+var precinct = require('precinct'),
     filename = process.argv[2],
     dir = require('node-dir'),
     fs = require('fs');
@@ -36,7 +36,7 @@ function printFilename(filename) {
 }
 
 function printDependencies(fileSrc) {
-  var dependencies = detective(fileSrc);
+  var dependencies = precinct(fileSrc);
 
   dependencies.forEach(function(dependency) {
     console.log(dependency);
@@ -47,7 +47,7 @@ if (isDirectory(filename)) {
   forAllJSFiles(filename, printDependencies);
 
 } else {
-  var fileContents = fs.readFileSync(filename).toString();
+  var fileContents = fs.readFileSync(filename, 'utf8');
 
   printFilename(filename);
   printDependencies(fileContents);
